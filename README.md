@@ -158,11 +158,17 @@ Una vez validado, el usuario puede acceder a las pantallas principales.
 # 🏁 **Estado del Proyecto**
 
 ✔ Mockups creados : https://www.figma.com/design/ig8RD7zFNsE3zOCkHhuDEX/Onboarding--Login---Register---App-Ui--Community-?node-id=878-41&t=MYkOZSNiuueWwNgb-0
+
 ✔ Pantallas completas
+
 ✔ Navegación funcional
+
 ✔ Videos incluidos
+
 ✔ Login con validación
+
 ✔ README completo con instrucciones
+
 ✔ Proyecto listo para ser presentado
 
 ---
