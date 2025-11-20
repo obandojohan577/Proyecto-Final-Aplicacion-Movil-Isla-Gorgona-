@@ -1,125 +1,169 @@
 
 ---
 
-# ✅ **1. CÓMO EJECUTAR LA APP EN ANDROID STUDIO**
+# 📱 **Isla Gorgona App – Proyecto Final**
 
-### **Requisitos**
+### **Equipo de Desarrollo**
 
-✔ Tener Android Studio instalado
-✔ Tener la carpeta del proyecto abierta (tu *Apk isla gorgona*)
-✔ Tener un celular Android **o** un emulador configurado
-
----
-
-## **PASO 1 — Abrir el proyecto**
-
-1. Abre Android Studio
-2. Ve a **File → Open**
-3. Selecciona la carpeta del proyecto: **Apk isla gorgona**
-4. Espera a que gradle termine de sincronizar
+* **Johan Sebastián Cundumi Obando**
+* **Arnol Fernando Vidal Caicedo** 
 
 ---
 
-## **PASO 2 — Seleccionar un dispositivo para ejecutar**
+# 🏝️ **Descripción de la Aplicación**
 
-En la parte superior de Android Studio verás algo como:
+**Isla Gorgona App** es una aplicación móvil desarrollada en **Android Studio**, cuyo objetivo es ofrecer una experiencia educativa, visual y sencilla sobre la Isla Gorgona, su historia y su biodiversidad.
 
-`Pixel 6 API 34` o “No Devices”.
+La aplicación permite:
 
-Tienes dos opciones:
-**(A) Ejecutarlo en un emulador**
-**(B) Ejecutarlo en tu celular**
+* **Pantalla de Login** con validación de usuario y contraseña (contraseña mínimo 8 letras).
+* **Pantalla Principal** con información general de la Isla Gorgona.
+* **Vista dedicada a la Historia de la Cárcel**, uno de los elementos históricos más importantes de la isla.
+* **Sección de Especies**, donde se muestran 3 especies representativas:
 
----
+  * Ballenas jorobadas
+  * Monos
+  * Serpientes
 
-# 🔵 **A) EJECUTAR EN UN EMULADOR**
+Cada especie tiene su propia pantalla con información básica para el usuario.
 
-1. En el menú de dispositivos, haz clic en **Device Manager**
-2. Presiona **Create Device**
-3. Elige un modelo (Pixel 5, Pixel 6, etc.)
-4. Selecciona una imagen del sistema (Android 12, 13 o 14)
-5. Espera a que descargue
-6. Presiona en **Play**
-
-Luego presiona el botón verde ▶ **Run App**
-
-Listo. Tu app se abrirá en el emulador.
+El diseño busca ser intuitivo, amigable y educativo, manteniendo una estética visual acorde al ambiente natural de la Isla Gorgona.
 
 ---
 
-# 🔵 **B) EJECUTARLA EN TU CELULAR (RECOMENDADO)**
+# 🧪 **Mockups del Proyecto**
 
-### **PASO 1 — Activar opciones de desarrollador**
+Los mockups fueron elaborados como parte de la entrega #1 y representan:
 
-En tu celular:
+* Pantalla de inicio
+* Login
+* Información general
+* Historia de la cárcel
+* Vista de especies
+* Vista interna de cada especie
 
-1. **Ajustes → Acerca del teléfono**
-2. Toca *7 veces* donde dice **Número de compilación**
-3. Se activarán las **Opciones de desarrollador**
-
----
-
-### **PASO 2 — Activar depuración USB**
-
-1. En **Ajustes → Sistema → Opciones de desarrollador**
-2. Activa:
-
-   * **Depuración USB**
-   * **Permitir depuración ADB**
-   * (Opcional) **Depuración USB en modo seguro**
+*(Puedes agregar imágenes o enlaces si tu repositorio las contiene.)*
 
 ---
 
-### **PASO 3 — Conectar el celular**
+# 🎥 **Videos del Proyecto**
 
-1. Conecta tu celular con cable USB
+### 🔵 **Video explicativo del proyecto (Código + Explicación):**
 
-2. En el celular aparecerá:
-   **¿Permitir depuración USB? → Aceptar**
+[https://www.youtube.com/watch?v=2oPxm0IqRAA](https://www.youtube.com/watch?v=2oPxm0IqRAA)
 
-3. En Android Studio debe aparecer tu dispositivo en la lista
-   Ejemplo:
-   **Moto G32 (Android 13)**
+### 🔵 **Video demostración en un dispositivo móvil:**
 
----
-
-### **PASO 4 — Ejecutar la app**
-
-Presiona el botón verde ▶ **Run**
-
-Android Studio compilará y enviará la app a tu celular.
-Listo: tu app se abrirá automáticamente en el teléfono.
+[https://www.youtube.com/shorts/FEDTfqLWItc](https://www.youtube.com/shorts/FEDTfqLWItc)
 
 ---
 
-# 🚀 **2. INSTALAR LA APK DIRECTAMENTE EN TU CELULAR (SIN CABLE)**
+# ⚙️ **Cómo Ejecutar la Aplicación en Android Studio**
 
-Si quieres enviar la app como APK:
+## 🔧 1. Abrir el proyecto
 
-### **PASO 1 — Generar APK**
+1. Abrir **Android Studio**.
+2. Ir a **File → Open**.
+3. Seleccionar la carpeta del proyecto:
+   **Apk isla gorgona** (desde el Escritorio).
+4. Esperar a que Gradle sincronice.
+
+---
+
+## ▶️ 2. Ejecutar la aplicación (Emulador o Celular)
+
+---
+
+## 🅰️ **A. Ejecutar usando un Emulador**
+
+1. Abrir **Device Manager**.
+2. Crear un nuevo dispositivo virtual (**Create Device**).
+3. Elegir un modelo (recomendado: Pixel 6 o Pixel 7).
+4. Descargar una imagen del sistema (Android 12/13/14).
+5. Ejecutar el emulador (**Play**).
+6. Presionar el botón verde ▶ **Run** para correr la app.
+
+---
+
+## 🅱️ **B. Ejecutar en un Dispositivo Físico (Recomendado)**
+
+### **1. Activar Opciones de Desarrollador**
+
+En el celular:
+
+* Ajustes → Acerca del teléfono → tocar 7 veces *Número de compilación*
+
+### **2. Activar Depuración USB**
+
+* Ajustes → Sistema → Opciones de desarrollador
+* Activar **Depuración USB**
+
+### **3. Conectar el celular**
+
+* Conectar por USB
+* Aceptar mensaje: *“¿Permitir depuración USB?”*
+
+### **4. Ejecutar**
+
+* El dispositivo aparecerá en Android Studio
+* Seleccionarlo y presionar ▶ **Run**
+* La app se instalará automáticamente en el celular
+
+---
+
+# 📦 **Instalación mediante APK (sin Android Studio)**
+
+Si deseas instalar la aplicación directamente:
+
+## **1. Generar el APK**
 
 En Android Studio:
 
-**Build → Build Bundle(s) / APK(s) → Build APK(s)**
+**Build → Build Bundle(s)/APK(s) → Build APK(s)**
 
-La APK queda en:
+La APK se generará en:
 
 ```
-Proyecto → app → build → outputs → apk → debug → app-debug.apk
+app/build/outputs/apk/debug/app-debug.apk
 ```
 
-La puedes enviar por:
+## **2. Instalar la APK en el celular**
+
+Enviar el archivo por:
 
 * WhatsApp
-* Telegram
 * USB
 * Google Drive
 
-Instalas la APK y listo.
+Si aparece el mensaje de bloqueo:
 
-Si te dice “instalación bloqueada”, activa:
+**Ajustes → Seguridad → Instalar apps desconocidas → Permitir**
 
-**Ajustes → Seguridad → Permitir instalación desde orígenes desconocidos**
+---
+
+# 🔐 **Validación de Login**
+
+El login incluye:
+
+* Usuario obligatorio
+* Contraseña obligatoria
+* La contraseña debe contener:
+  ✔ Solo letras
+  ✔ Mínimo 8 caracteres
+
+Una vez validado, el usuario puede acceder a las pantallas principales.
+
+---
+
+# 🏁 **Estado del Proyecto**
+
+✔ Mockups creados : https://www.figma.com/design/ig8RD7zFNsE3zOCkHhuDEX/Onboarding--Login---Register---App-Ui--Community-?node-id=878-41&t=MYkOZSNiuueWwNgb-0
+✔ Pantallas completas
+✔ Navegación funcional
+✔ Videos incluidos
+✔ Login con validación
+✔ README completo con instrucciones
+✔ Proyecto listo para ser presentado
 
 ---
 
