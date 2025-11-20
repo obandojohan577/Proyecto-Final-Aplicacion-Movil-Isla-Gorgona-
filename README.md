@@ -1,5 +1,4 @@
-Aquí tienes un **bloque listo para pegar en tu README**, súper llamativo, bien organizado y con estilo profesional.
-Incluye íconos, colores, secciones claras y botones visuales para los dos videos.
+
 
 ---
 
@@ -33,4 +32,4 @@ Incluye íconos, colores, secciones claras y botones visuales para los dos video
 
 ---
 
-Si quieres, puedo preparar un README **completo**, con instalación, screenshots, arquitectura y todo el documento profesional para tu repositorio. ¿Te lo hago?
+
